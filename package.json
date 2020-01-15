@@ -1,0 +1,38 @@
+{
+  "name": "planetpinebot",
+  "version": "0.0.1",
+  "description": "PlanetPineBot",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "axios": "^0.19.0",
+    "common-tags": "^1.8.0",
+    "discord.io": "github:woor/discord.io#gateway_v6",
+    "discord.js": "^11.3.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "middleware": "^1.0.0",
+    "request": "^2.88.0",
+    "yamdbf": "^3.0.1"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "prefix": {
+    "prefix": "-",
+    "length": "1"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/template-discord-bot"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
